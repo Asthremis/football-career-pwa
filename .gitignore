@@ -1,0 +1,5 @@
+# Football Career PWA
+
+## Ignore files
+node_modules/
+.env

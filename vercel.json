@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "name": "football-career-pwa",
+  "routes": [
+    {
+      "src": "./server/api.js",
+      "dest": "./server/api.js"
+    }
+  ]
+}
