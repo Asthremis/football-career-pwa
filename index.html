@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Football Career Game</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        #game { width: 100%; height: 100vh; background: #f4f4f4; display: flex; justify-content: center; align-items: center; }
+        button { margin: 10px; padding: 10px; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <div id="game">
+        <h1>Welcome to the Football Career Game</h1>
+        <button onclick="startGame()">Start Game</button>
+        <div id="shop" style="display:none;">
+            <h2>Shop</h2>
+            <button onclick="buyItem('Player Upgrade')">Buy Player Upgrade</button>
+        </div>
+    </div>
+    <script>
+        function startGame() {
+            alert('Game Started!'); // Placeholder for game logic
+            document.getElementById('shop').style.display = 'block';
+        }
+        
+        function buyItem(item) {
+            alert(item + ' purchased!'); // Placeholder for shopping logic
+        }
+    </script>
+</body>
+</html>
